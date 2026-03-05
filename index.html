@@ -4,21 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
 
+    body{ 
+        background-image: url(800x600.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .meu-botao {
+  /* Cores e Fundo */
+  background-color: #3498db; /* Azul vibrante */
+  color: white;
+  
+  /* Espaçamento e Tamanho */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  
+  /* Bordas e Formato */
+  border: none;
+  border-radius: 8px; /* Cantos arredondados */
+  
+  /* Interatividade */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Suaviza as mudanças */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Efeito ao passar o mouse */
+.meu-botao:hover {
+  background-color: #2980b9; /* Escurece um pouco */
+  transform: translateY(-2px); /* Efeito de levitação */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Efeito ao clicar */
+.meu-botao:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+   
+</style>
 </head>
 <body>
-    <h1 style="color: rgb(255, 0, 0);">Segunda Página</h1>
-        <a href="segundapagina.html">Página 2</a>
+    
+
+    <div style="text-align: center;">
         
-    <h1>Terceira Página</h1>
+        <h1 style="color: rgb(255, 0, 0);">Segunda Página</h1>
+        <a href="segundapagina.html"><button class="meu-botao">Página 2</button></a>
+    </div>
+
+    <div style="text-align: center;">
+        <h1>Terceira Página</h1>
         <a href="terceirapagina.html">Página 3</a>
+    </div>
 
-    <h1>Quarta Página</h1>
+    <div style="text-align: center;">
+        <h1>Quarta Página</h1>
         <a href="quartapagina.html">Página 4</a>
-
+    </div>
+    <div style="text-align: center;">
         <h1>Quinta Página</h1>
         <a href="quintapagina.html">Página 5</a>
-
+    </div>
+        
+        
     <h1><img src="400x200.jpg" alt="400x200"></h1>
     <h1><img src="800x600.png" alt="800x600"></h1>
     <h1><img src="1280x1024.jpg" alt="1280x1024"></h1>
